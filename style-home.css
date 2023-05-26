@@ -1,0 +1,99 @@
+header{
+    background-color: aquamarine;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute; /*yo puedo posicionar mi elemento en cualquier lugar de la página.*/
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase; /*Transforma el texto en mayusculas*/
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.titulo-principal {
+    padding-left: 30px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+
+#banner{
+    width:100%;
+}
+
+.principal{
+    background: #CCCCCC;
+    padding: 20px;
+}
+
+
+p{
+    text-align: center;
+}
+
+em strong{
+    color:red;
+}
+
+#mision{
+    font-size: 20px;
+}
+
+.diferenciales{
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+
+
+.items{
+    font-style: italic;
+    margin-top: 20px;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagenDiferenciales{
+    width: 50%;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyright {
+    color: aliceblue;
+    font-size: 13px;
+    margin: 20px;
+}
